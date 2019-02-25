@@ -1,6 +1,6 @@
 # PixivのフォローリストからPawooをフォローするやつ
 ## 準備
-*モジュールのインストール  
+-モジュールのインストール  
 
 ```bash:Terminal
 pip install pixivpy  
@@ -10,7 +10,7 @@ pip install lxml
 pip install Mastodon.py  
 ```  
 
-*pivivpyの認証情報の準備  
+-pivivpyの認証情報の準備  
 
 ```json:client.json  
 {  
@@ -20,7 +20,7 @@ pip install Mastodon.py
 }  
 ```
 
-*Mastodon.pyの登録　Pythonのコンソールから  
+-Mastodon.pyの登録　Pythonのコンソールから  
 
 ```python:Terminal  
 >> from mastodon import Mastodon  
